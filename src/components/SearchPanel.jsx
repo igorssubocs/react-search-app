@@ -13,7 +13,7 @@ export default function SearchForm() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-slate-100">Google</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-slate-100">ChatGPT</h1>
         </motion.div>
 
         {/* Search Input */}
@@ -26,7 +26,7 @@ export default function SearchForm() {
           <input 
             type="text" 
             className="w-full sm:w-[600px] p-3 pl-10 border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" 
-            placeholder="Search Google or type a URL" 
+            placeholder="Ask ChatGPT something" 
           />
           <button 
             className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-lg"

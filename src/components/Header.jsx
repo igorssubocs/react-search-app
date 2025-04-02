@@ -14,7 +14,7 @@ export default function Header() {
       <nav className="container max-w-[1440px] mx-auto flex justify-end items-center">
         {/* <a className="text-xl font-extrabold italic text-white">Google</a> */}
 
-        <ul className="grid grid-cols-2 gap-1">
+        <ul className="grid grid-cols-2 gap-1 sm:px-6">
           <li>
             <a href="https://github.com/igorssubocs" target="_blank" className="text-white hover:opacity-60 transition">
               <SlSocialGithub />
