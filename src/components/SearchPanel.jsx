@@ -16,7 +16,6 @@ export default function SearchForm() {
   return (
     <div className="grid h-full place-items-center">
       <div className="container max-w-[1440px] grid gap-10 text-center mx-auto px-4 sm:px-6 md:px-8">
-        {/* Title Animation */}
         <motion.div
           className="w-full"
           initial={{ opacity: 0, y: -50 }}
@@ -26,7 +25,6 @@ export default function SearchForm() {
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-slate-100">AI Finder</h1>
         </motion.div>
 
-        {/* Search Input */}
         <motion.form 
           onSubmit={googleSearch}
           className="relative w-full max-w-lg sm:max-w-xl mx-auto"
